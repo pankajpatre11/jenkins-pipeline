@@ -10,7 +10,7 @@ FROM ubuntu
 RUN apt-get -y update && apt-get -y install nginx
 
 # Copy the Nginx config
-COPY ./nginx /etc/nginx/nginx.conf.default
+#COPY ./nginx /etc/nginx/nginx.conf.default
 
 # Expose the port for access
 EXPOSE 80/tcp

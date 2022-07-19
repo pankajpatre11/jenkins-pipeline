@@ -6,11 +6,11 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>deors.training</groupId>
-    <artifactId>workshop-pipelines</artifactId>
+    <artifactId>workshop-pipelines-1</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>workshop-pipelines</name>
+    <name>workshop-pipelines-1</name>
     <description>Materials for Hackers Week 6 workshop on Jenkins pipelines with Docker.
                  An exemplar Java + Maven + Spring Boot project with Jenkins pipeline using
                  Maven lifecycle and Docker for packaging and running integration tests</description>

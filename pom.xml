@@ -32,7 +32,7 @@
         <selenium-htmlunit.version>3.61.0</selenium-htmlunit.version>
 
         <compiler.version>3.8.1</compiler.version>
-        <maven.version>3.2.5</maven.version>
+        <surefire.version>3.2.5</surefire.version>
         <failsafe.version>2.22.2</failsafe.version>
      </properties>
 
@@ -77,8 +77,8 @@
             <!-- unit tests (with mocking agent enabled) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.version}</version>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${surefire.version}</version>
                 <configuration>
                     <excludes>
                         <exclude>**/*IntegrationTest.java</exclude>
